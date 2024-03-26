@@ -1,0 +1,29 @@
+.cp-modalForm{
+    .modal-body{
+        form{
+            display: block;
+            a{
+                color: $second-color;
+            }
+            input,select,textarea{
+                border: none;
+                box-shadow: none;
+                outline: none;
+                border-radius: 0%;
+                border-bottom: 3px solid #ccc;
+                &:focus{
+                    border-bottom: 3px solid $second-color;
+                }
+            }
+            .btn{
+                background-color: $second-color;
+                color: #fff;
+                font-weight: 600;
+                &:focus{
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}

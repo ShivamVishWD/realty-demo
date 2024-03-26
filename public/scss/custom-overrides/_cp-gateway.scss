@@ -1,0 +1,32 @@
+.cp-gateway
+{
+    height: 300px;
+    background:url('../../images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg');
+    background-size: cover;
+    background-position: center;
+    @media only screen and (max-width:$media-sm) {
+        height: auto;
+        padding-bottom: 1rem;
+      }
+    .gateway-head
+    {
+        font-size:3rem;
+        font-family: $font-barlow;
+        padding-top:3rem;
+        @media only screen and (max-width:$media-sm) {
+            font-size: 2.2rem;
+          }
+    }
+    p{
+        font-family: $font-Roboto;
+        font-weight: bold;
+    }
+    .btn
+    {
+        background: $second-color;
+        color: #fff;
+        box-shadow: none;
+        border-radius:0px;
+        padding:10px 20px;
+    }
+}

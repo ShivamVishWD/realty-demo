@@ -1,0 +1,71 @@
+.cp-login
+{
+    background-image: url('../../images/living-room-with-yellow-armchair-empty-dark-blue-wall-background-3d-rendering.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    color: #000;
+    @media only screen and (max-width:$media-sm) {
+        padding-top: 6.5rem;
+        padding-bottom: 1rem;
+      }
+    .login-form
+    {
+        backdrop-filter: blur(5px);
+        background: rgba($color: #fff, $alpha: 0.4);
+        padding: 2.5rem;
+        padding-top:3rem;
+        border-radius: 3px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        @media only screen and (max-width:$media-sm) {
+            padding: 1rem;
+            padding-top:2rem;
+          }
+        h2{
+            font-size:2.6rem;
+            font-family: $font-barlow;
+            font-weight:bold;
+            @media only screen and (max-width:$media-sm) {
+                font-size: 1.8rem;
+            }
+        }
+        p{
+            font-family: $font-Roboto;
+        }
+        input, select{
+            border-radius: 0;
+        }
+        .btn{
+            background-color: $second-color;
+            color: #fff;
+            box-shadow: none;
+            border-radius:0px;
+            padding:10px 15px;
+        }
+        .forgot{
+            background-color: $primary-color;
+        }
+        .form-control{
+            box-shadow: none;
+        }
+        .account
+        {
+            color: #000;
+            font-family: $font-Roboto;
+            display: block;
+            margin-top:1rem;
+            font-size:1.3rem;
+            text-decoration: none;
+            margin-bottom: 2rem;
+        }
+        .accountCreate
+        {
+            background-color: $second-color;
+        }
+    }
+    img{
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+}

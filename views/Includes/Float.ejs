@@ -1,0 +1,523 @@
+<div class="cp-float">
+  <!-- Button trigger modal -->
+  <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+    <img src="/images/plus.png" alt="">
+  </button>
+</div>
+
+<!-- Modal Quick Actions Modal -->
+<div class="modal fade cp-quickActions" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel">Quick Actions</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container cp-actions">
+          <h6>Pre-Aprove Entry</h6>
+          <div class="row">
+            <div class="col-lg-3 col-3">
+              <div class="card carEntryBtn">
+                <div class="card-body">
+                  <img src="/images/icons/sedan.png" class="img-fluid" alt="">
+                  <label>Car Entry</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3">
+              <div class="card deliveryBtn">
+                <div class="card-body">
+                  <img src="/images/icons/fast-delivery.png" class="img-fluid" alt="">
+                  <label>Delivery</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3">
+              <div class="card guestBtn">
+                <div class="card-body">
+                  <img src="/images/icons/refugee.png" class="img-fluid" alt="">
+                  <label>Guest</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3">
+              <div class="card visitBtn">
+                <div class="card-body">
+                  <img src="/images/icons/customer-support.png" class="img-fluid" alt="">
+                  <label>Visiting Help</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h6>Security</h6>
+          <div class="row">
+            <div class="col-lg-3 col-3">
+              <div class="card securityAlrtBtn">
+                <div class="card-body">
+                  <img src="/images/icons/secure-shield.png" class="img-fluid" alt="">
+                  <label>Security Alert</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3">
+              <div class="card msgToGuardBtn">
+                <div class="card-body">
+                  <img src="/images/icons/mail.png" class="img-fluid" alt="">
+                  <label>Message to Guard</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-3">
+              <div class="card kidAllowBtn">
+                <div class="card-body">
+                  <img src="/images/icons/playtime.png" class="img-fluid" alt="">
+                  <label>Allow Kid Exit</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h6>Community</h6>
+          <div class="row">
+            <div class="col-lg-3 col-3">
+              <div class="card" onclick="location.href='/help'">
+                <div class="card-body">
+                  <img src="/images/icons/complaint.png" class="img-fluid" alt="">
+                  <label>Raise Complaint</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <h6>My Access</h6>
+            <div class="row">
+              <div class="col-lg-3 col-3">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/images/icons/copy-writing.png" class="img-fluid" alt="">
+                    <label>Request Visit Code</label>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+        </div>
+      </div>
+      <div class="modal-footer">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Car Entry Option Card -->
+<div class="modal fade cp-modalCard" id="cabEntryModal" tabindex="-1" aria-labelledby="cabEntryModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="cabEntryModal">Car Entry Selection</h4>
+        <button type="button" class="close closeCabEntryModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul>
+                <li><a href="#" data-toggle="modal" class="formTarget" data-target="#cabEntryOnce">Allow Once</a></li>
+                <li><a href="#">Allow Frequently</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Car Entry Once Card -->
+<div class="modal fade cp-modalForm" id="cabEntryOnce" tabindex="-1" aria-labelledby="cabEntryOnce" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="cabEntryOnce">Car Entry Once</h4>
+        <button type="button" class="close closeCabEntryForm" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="carEntryForm">
+                <div class="form-group">
+                  <label for="dateField">Invitation Date</label>
+                  <input type="Date" class="form-control" id="dateField" name="inviteDate" required>
+                </div>
+                <div class="form-group row">
+                  <div class="col-lg-6">
+                    <label for="startTimeField">Start Time</label>
+                    <input type="time" class="form-control" id="startTimeField" name="startTime" required>
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="endTimeField">End Time</label>
+                    <input type="time" class="form-control" id="endTimeField" name="endTime" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="carNo">Car No.</label>
+                  <input type="number" class="form-control" id="carNo" name="carNo" required>
+                </div>
+                <div class="form-group">
+                  <label for="mobileField">Mobile</label>
+                  <input type="tel" class="form-control" id="mobileField" name="mobile" required>
+                </div>
+                <button type="submit" class="btn">Submit Form</button> &nbsp; &nbsp;
+                <b><label class="carEntryMsg"></label></b>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delivery Option Card -->
+<div class="modal fade cp-modalCard" id="deliveryEntry" tabindex="-1" aria-labelledby="deliveryEntry"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="deliveryEntry">Delivery Entry Selection</h4>
+        <button type="button" class="close closeDeloiveryModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul>
+                <li><a href="#" data-toggle="modal" class="formTarget" data-target="#deliveryEntryOnce">Allow Once</a>
+                </li>
+                <li><a href="#">Allow Frequently</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Delivery Entry Once Card -->
+<div class="modal fade cp-modalForm" id="deliveryEntryOnce" tabindex="-1" aria-labelledby="deliveryEntryOnce"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="deliveryEntryOnce">Delivery Entry Once</h4>
+        <button type="button" class="close closeDeliveryForm" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="deliveryEntryForm">
+                <div class="form-group">
+                  <label for="dateField">Allow delivery executive to enter on date</label>
+                  <input type="Date" class="form-control" id="dateField" name="inviteDate" required>
+                </div>
+                <div class="form-group">
+                  <label for="entryTime">Allow delivery executive to enter in next</label>
+                  <select class="form-control" id="entryTime" name="startTime" required>
+                    <option value="1 hours">1 Hours</option>
+                    <option value="2 hours">2 Hours</option>
+                    <option value="4 hours">4 Hours</option>
+                    <option value="6 hours">6 Hours</option>
+                    <option value="12 hours">12 Hours</option>
+                    <option value="24 hours">24 Hours</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn">Submit Form</button> &nbsp; &nbsp;
+                <b><label class="deliveryEntryMsg"></label></b>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Guest Modal Card -->
+<div class="modal fade cp-modalCard" id="guestModal" tabindex="-1" aria-labelledby="guestModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="close closeGuestModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <h5 class="text-center">Allow my guest to enter once <a href="#">today</a></h5>
+          <hr />
+          <div class="row">
+            <div class="col-lg-12">
+              <h6 class="text-center"><a href="#">Advance Options</a></h6>
+              <label>Select Guest From</label>
+              <ul>
+                <li><a href="#">Phone Contacts</a></li>
+                <li><a href="#">Recently Invited</a></li>
+                <li><a href="#" data-toggle="modal" class="formTarget" data-target="#manuallyModal">Enter Manually</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Guest Manually Modal -->
+<div class="modal fade cp-modalForm" id="manuallyModal" tabindex="-1" aria-labelledby="manuallyModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="manuallyModal">Select Guest to Invite</h4>
+        <button type="button" class="close closeGuestForm" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="inviteForm">
+                <div class="form-group">
+                  <label for="dateField">Invitation Date</label>
+                  <input type="Date" class="form-control" id="dateField" name="inviteDate" required>
+                </div>
+                <div class="form-group row">
+                  <div class="col-lg-6">
+                    <label for="startTimeField">Start Time</label>
+                    <input type="time" class="form-control" id="startTimeField" name="startTime" required>
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="endTimeField">End Time</label>
+                    <input type="time" class="form-control" id="endTimeField" name="endTime" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="nameField">Name</label>
+                  <input type="text" class="form-control" id="nameField" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="mobileField">Mobile</label>
+                  <input type="tel" class="form-control" id="mobileField" name="mobile" required>
+                </div>
+                <button type="submit" class="btn">Add Guest</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Visit Entry Option Card -->
+<div class="modal fade cp-modalCard" id="visitEntry" tabindex="-1" aria-labelledby="visitEntry" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="visitEntry">Visit Entry Selection</h4>
+        <button type="button" class="close closeVisitModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul>
+                <li><a href="#" data-toggle="modal" class="formTarget" data-target="#visitEntryModal">Home Repair</a>
+                </li>
+                <li><a href="#">Appliance Repair</a></li>
+                <li><a href="#">Internet Repair</a></li>
+                <li><a href="#">Beautician</a></li>
+                <li><a href="#">Tutor</a></li>
+                <li><a href="#">Others</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Visit Entry Once Card -->
+<div class="modal fade cp-modalForm" id="visitEntryModal" tabindex="-1" aria-labelledby="visitEntryModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="visitEntryModal">Delivery Entry Once</h4>
+        <button type="button" class="close closeVisitForm" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="visitEntryForm">
+                <div class="form-group">
+                  <label for="dateField">Allow Person to enter on date</label>
+                  <input type="Date" class="form-control" id="dateField" name="inviteDate" required>
+                </div>
+                <div class="form-group">
+                  <label for="entryTime">Allow Person to enter in next</label>
+                  <select class="form-control" id="entryTime" name="startTime" required>
+                    <option value="1 hours">1 Hours</option>
+                    <option value="2 hours">2 Hours</option>
+                    <option value="4 hours">4 Hours</option>
+                    <option value="6 hours">6 Hours</option>
+                    <option value="12 hours">12 Hours</option>
+                    <option value="24 hours">24 Hours</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn">Submit Form</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Security Alert Card -->
+<div class="modal fade cp-modalForm" id="securityModalForm" tabindex="-1" aria-labelledby="securityModalForm"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="securityModalForm">Alert for Danger</h4>
+        <button type="button" class="close closeSecurityModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="alertForm">
+                <div class="form-group">
+                  <label for="person">Fire</label>
+                  <input type="radio" name="alert" id="person" value="person" required>
+                  &nbsp;&nbsp; <label for="community">Stuck In Lift</label>
+                  <input type="radio" name="alert" id="community" value="community" required>
+                  &nbsp;&nbsp; <label for="community">Animal Threat</label>
+                  <input type="radio" name="alert" id="community" value="community" required>
+                  &nbsp;&nbsp; <label for="community">Visitor Threat</label>
+                  <input type="radio" name="alert" id="community" value="community" required>
+                </div>
+                <div class="form-group">
+                  <label for="msgAlert">Any Message</label>
+                  <textarea name="msgAlert" class="form-control required"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Form</button> &nbsp; &nbsp;
+                <b><label class="securityMsg"></label></b>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Message To Guard Card -->
+<div class="modal fade cp-modalForm" id="msgToGaurdModal" tabindex="-1" aria-labelledby="msgToGaurdModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="msgToGaurdModal">Message To Guard</h4>
+        <button type="button" class="close closeMsgGuardModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="msgToGuardForm">
+                <div class="form-group">
+                  <textarea type="text" class="form-control" id="msgField" placeholder="Type Message To Guard"
+                    name="msgToGuard" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Form</button> &nbsp; &nbsp;
+                <b><label class="guardMsg"></label></b>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Kid Kit Card -->
+<div class="modal fade cp-modalForm" id="kidAllowModal" tabindex="-1" aria-labelledby="kidAllowModal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="kidAllowModal">Kid Kits Allowance Form</h4>
+        <button type="button" class="close closeKidModal" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <form class="kidKitForm">
+                <div class="form-group">
+                  <label for="dateField">Allow Kids Kit to enter on date</label>
+                  <input type="Date" class="form-control" id="dateField" name="inviteDate" required>
+                </div>
+                <div class="form-group">
+                  <label for="entryTime">Allow Kids Kit to enter in next</label>
+                  <select class="form-control" id="entryTime" name="startTime" required>
+                    <option value="1 hours">1 Hours</option>
+                    <option value="2 hours">2 Hours</option>
+                    <option value="4 hours">4 Hours</option>
+                    <option value="6 hours">6 Hours</option>
+                    <option value="12 hours">12 Hours</option>
+                    <option value="24 hours">24 Hours</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn">Submit Form</button> &nbsp; &nbsp;
+                <b><label class="allowMsg"></label></b>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

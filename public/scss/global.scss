@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import './config/variables';
+@import './custom-overrides/cp-header';
+@import './custom-overrides/cp-banner';
+@import './custom-overrides/cp-banner-section';
+@import './custom-overrides/cp-features';
+@import './custom-overrides/cp-visitors';
+@import './custom-overrides/cp-society';
+@import './custom-overrides/cp-gateway';
+@import './custom-overrides/cp-login';
+@import './custom-overrides/cp-community';
+@import './custom-overrides/cp-float';
+@import './custom-overrides/cp-actions';
+@import './custom-overrides/cp-contact';
+@import './custom-overrides/cp-quickActions';
+@import './custom-overrides/cp-modalCard';
+@import './custom-overrides/cp-modalForm';
+@import './custom-overrides/cp-locationStrip';
+@import './custom-overrides/cp-modalService';
+@import './custom-overrides/cp-modalReqService';
+@import './custom-overrides/cp-swiper-section';
+@import './custom-overrides/cp-modalNotice';
+@import './custom-overrides/cp-modalResidents';
+@import './custom-overrides/cp-modalDocument';
+@import './custom-overrides/cp-modalPrepaid';
+@import './custom-overrides/cp-covidModal';
+@import './custom-overrides/cp-callback';
+@import './custom-overrides/cp-block';
+@import './custom-overrides/cp-help';
+@import './custom-overrides/cp-profile';
+@import './custom-overrides/cp-footer';
+@import './custom-overrides/cp-swiper';
+@import './custom-overrides/cp-visit-form';
+@import './custom-overrides/cp-communities';
+@import './custom-overrides/cp-propertyinfo';
+@import './custom-overrides/cp-preloader';
+@import './custom-overrides/cp-about';
+@import './custom-overrides/cp-float-div';
+
+body{
+    overflow-x: hidden !important;
+}

@@ -1,0 +1,30 @@
+.cp-float{
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    background-color: $second-color;
+    border-radius: 50%;
+    border: 2px solid rgba($color: #000, $alpha: 0.3);
+    overflow: hidden;
+    display: none;
+    &.show{
+        display: block;
+    }
+    button {
+        width: 50px;
+        aspect-ratio: 1/1;
+        @media only screen and (max-width:$media-sm) {
+            width: 45px;
+            aspect-ratio: 1/1;
+        }
+            img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            cursor: pointer;
+            @media only screen and (max-width:$media-sm) {
+                width: 100%;
+                aspect-ratio: 1/1;
+            }
+        }
+    }
+}

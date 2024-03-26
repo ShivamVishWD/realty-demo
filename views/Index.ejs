@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Homes</title>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="/css/Bootstrap.css" />
+  <link rel="stylesheet" href="/scss/global.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" /> -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="/fonts/Avenir-Light.ttf" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- <script id="BotPenguin-messenger-widget" src="https://cdn.botpenguin.com/botpenguin.js" defer>62c2d192dff07b5feed2a5b3,62c2d0cf99f7d360874c9d38</script> -->
+</head>
+
+<body>
+  <%- include('Includes/Preloader.ejs') %>
+  <%- include('Includes/Header.ejs') %>
+  <%- include('Includes/FixedSection.ejs') %>
+
+    <div class="container-fluid cp-banner">
+      <div class="video-banner show">
+        <!-- <video id="myVideo" src="/files/bg.mp4" autoplay="true" type="video/mp4" muted="true" loop="false"></video> -->
+      </div>
+      <div class="container">
+        <div class="banner-content">
+          <h1 class="banner-head">
+            Lets Start <span class="sub-head">Something Big</span>
+            <span class="sub-head-sec">With Us.</span>
+          </h1>
+          <div class="act-btn">
+            <button type="button" class="btn first">Get Started</button>
+            <!-- <button type="button" class="btn sec">
+              <img data-pause="/images/pause.png" data-play="/images/play.png" class="play-pause-btn" src="" />
+              <span id="current"></span>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid cp-swiper">
+      
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <img src="/images/hand-mobile.jpg" />
+                <div class="slider-content">
+                  <h5>Let's Connect Through WhatsApp</h5>
+                  <p class="text-justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <img src="/images/hotel-room.jpg" />
+                <div class="slider-content">
+                  <h5>Comfortable Rooms</h5>
+                  <p class="text-justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <img src="/images/pexels-tamil-king-3214064.jpg" />
+                <div class="slider-content">
+                  <h5>Awesome Interior</h5>
+                  <p class="text-justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-box">
+                <img src="/images/building2.jpg" />
+                <div class="slider-content">
+                  <h5>Solid Construction</h5>
+                  <p class="text-justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+          <!--<div class="swiper-pagination"></div>-->
+        </div>
+      
+    </div>
+
+    <div class="container-fluid cp-swiper-section resident">
+      <div class="container">
+        <div class="row cp-block-section">
+          <div class="col-lg-12">
+            <h4>Residents</h4>
+            <div class="row card-section">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/group.png" class="img-fluid" alt="" />
+                        <h5>Visitor Management</h5>
+                        <p>Customer Focus</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/logistics.png" class="img-fluid" alt="" />
+                        <h5>Delivery Management</h5>
+                        <p>Delivering Promises</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/planning.png" class="img-fluid" alt="" />
+                        <h5>Daily Help Management</h5>
+                        <p>Help in Every Situation</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/safety.png" class="img-fluid" alt="" />
+                        <h5>Child Security</h5>
+                        <p>Security is Most Important</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid cp-block">
+      <div class="container">
+        <h3>
+          <!--L&T-->
+          Hero Homes For Everyone
+        </h3>
+        <hr />
+        <br />
+        <p class="text-justify">
+          <!-- L&T Realty believes in commitment to its customers and stakeholders, whilst upholding the highest standard of
+          corporate professionalism. The goal has always been to enrich the lives of customers – The L&T Way, with
+          transparency, trust and assurance while exercising ethical business practices. -->
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+          voluptatum possimus ad voluptates, error, est amet perferendis aliquam
+          ratione in porro. Aspernatur quo molestiae odio dolor est autem sit
+          laborum!
+        </p>
+        <div class="row cp-block-content">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/images/icons/apartment.png" class="img-fluid" alt="" />
+                    <h5 class="card-title">
+                      900 + <br />
+                      Residents
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/images/icons/crm.png" class="img-fluid" alt="" />
+                    <h5 class="card-title">
+                      2500 + <br />
+                      Customers
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="/images/icons/location.png" class="img-fluid" alt="" />
+                    <h5 class="card-title">
+                      30 + <br />
+                      Cities
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="container-fluid cp-gateway">
+      <div class="container">
+        <h2 class="gateway-head">Gateway to better living.</h2>
+        <p>
+           Established in 2011, L&T Realty is the real estate arm of the $21 billion Larsen and Toubro and a trendsetter
+          amidst real estate developers in India. With an extensive portfolio spanning 6.50 mn. square metres (i.e. 70
+          mn. sqft.) across Residential, Commercial and Retail developments, the company is currently present in Mumbai,
+          Navi Mumbai, NCR, Bengaluru, Hyderabad and Chennai.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quia molestiae similique unde culpa ipsam necessitatibus voluptatem fugit velit? Voluptates assumenda cum animi itaque expedita. Repellat sint voluptates ipsum culpa.
+        </p>
+        <button class="btn first">Get in touch</button>
+      </div>
+    </div> -->
+
+    <!-- <div class="container-fluid cp-visit-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-12 mx-auto">
+            <div class="visit-form">
+              <form class="propertyForm" >
+                <div class="form-group">
+                  <label for="propertyType">Property Type</label>
+                  <select name="propertyType" id="propertyType" class="form-control" required>
+                    <option value="">--Select--</option>
+                    <option value="All">All</option>
+                    <option value="Studio">Studio</option>
+                    <option value="1 Bedrooms">1 Bedrooms</option>
+                    <option value="2 Bedrooms">2 Bedrooms</option>
+                    <option value="Villa">Villa</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="priceRating">Price Rating</label>
+                  <select name="priceRating" id="priceRating" class="form-control" required>
+                    <option value="">--Select--</option>
+                    <option value="All">All</option>
+                    <option value="AED 400000-80000">AED 400000-80000</option>
+                    <option value="AED 800000-160000">AED 800000-160000</option>
+                    <option value="AED 1600000-200000">
+                      AED 1600000-200000
+                    </option>
+                    <option value="AED 200000+">AED 200000+</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="community2">Community</label>
+                  <select name="community2" id="community2" class="form-control" required>
+                    <option value="">--Select--</option>
+                    <option value="All">All</option>
+                    <option value="Downtown City">Downtown City</option>
+                    <option value="Downtown City">Downtown City</option>
+                  </select>
+                </div>
+                <input type="submit" value="Search" class="btn btn-block">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Larsen and Toubro Limited is a USD 21 Billion business empire and a market leader in an array of industries
+          such as technology, engineering, construction, manufacturing and financial services. Over the last 8 decades,
+          by maintaining the highest standards of professionalism and corporate governance, the company has been able to
+          build a vast network that spans the globe to enable operations worldwide, addressing critical needs in key
+          sectors of the economy like infrastructure, defence, hydrocarbon, heavy engineering, power, ship building,
+          aerospace, electrical & automation, mining and metallurgy. -->
+    <!-- <div class="container-fluid cp-features">
+      <div class="container">
+        <h2 class="feature-head">Features</h2>
+        <p>
+          
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quia
+          molestiae similique unde culpa ipsam necessitatibus voluptatem fugit
+          velit? Voluptates assumenda cum animi itaque expedita. Repellat sint
+          voluptates ipsum culpa.
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Featuring</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Reality Home</h6>
+                <p class="card-text">Brokerage free rental & services.</p>
+                <a href="#" class="card-link">Explore Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Resident Profile</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Create Now</h6>
+                <p class="card-text">Share your story with Nighbours</p>
+                <a href="#" class="card-link">Explore Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Utility Payments</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Pay Bills</h6>
+                <p class="card-text">Home bills payments at 0% fee.</p>
+                <a href="#" class="card-link">Explore Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container-fluid cp-swiper-section Committee">
+      <div class="container">
+        <div class="row cp-block-section">
+          <div class="col-lg-12">
+            <h4>Committee Members</h4>
+            <div class="row card-section">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/customer-managment.png" class="img-fluid" alt="" />
+                        <h5>Accounting Toolkit</h5>
+                        <p>No worry about Accounting</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/event.png" class="img-fluid" alt="" />
+                        <h5>Daily Staff Attendance</h5>
+                        <p>Staff is available always</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/account.png" class="img-fluid" alt="" />
+                        <h5>Complaint Management</h5>
+                        <p>We Listen to you</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-lg-12">
+                      <div class="swiper-card">
+                        <img src="/images/icons/conversation.png" class="img-fluid" alt="" />
+                        <h5>Communications</h5>
+                        <p>Communication is best</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="container-fluid cp-visitors">
+      <div class="container">
+        <h2 class="visitor-head">Approved Visitors</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          totam laborum aliquam dolorum iusto commodi illum aspernatur, eum
+          veritatis nihil necessitatibus suscipit iste esse, consequatur
+          voluptas nisi rerum, sequi quasi.
+        </p>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/images/Uber.jpeg" class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/images/swiggy.png" class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/images/zomato.png" class="card-img-top" alt="..." />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="/images/Blinkit-yellow-app-icon.svg" class="card-img-top" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <!-- <div class="container-fluid cp-society">
+      <div class="container">
+        <h2 class="society-head">Todays Home Ridge Residency</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          totam laborum aliquam dolorum iusto commodi illum aspernatur, eum
+          veritatis nihil necessitatibus suscipit iste esse, consequatur
+          voluptas nisi rerum, sequi quasi.
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">Notice</div>
+              <div class="card-body notice">
+                <h5 class="card-title">Agenda for Sunday Meeting</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">Notice</div>
+              <div class="card-body notice">
+                <h5 class="card-title">Holika Dahan</h5>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-3">
+            <div class="society-desk">
+              <img src="/images/notification.png" alt="..." />
+              <p>Notifications</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="society-desk">
+              <img src="/images/coronavirus.png" alt="..." />
+              <p>Covid Protect</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="society-desk">
+              <img src="/images/house.png" alt="..." />
+              <p>Nighbours</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="society-desk">
+              <img src="/images/support.png" alt="..." />
+              <p>Help Line</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container-fluid cp-communities">
+      <div class="container">
+        <h3 class="text-justify">Our Community</h3>
+        <p>RESIDENTIAL COMMUNITIES IN INDIA</p>
+
+        <div class="community-box box-1">
+          <div class="box-content">
+            <h4>GANGA GREENS</h4>
+            <p>View Property</p>
+          </div>
+        </div>
+
+        <div class="community-box box-2">
+          <div class="box-content">
+            <h4>GHARAUNDA</h4>
+            <p>View Property</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('Includes/Float.ejs') %>
+      <%- include('Includes/Footer.ejs') %>
+        <%- include('Includes/UserAuth.ejs') %>
+
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <!-- <script>
+            setTimeout(function () {
+              swiperFun()
+            }, 1000)
+            function swiperFun() {
+              try {
+                var ww = $(window).width();
+                if (ww <= 768) {
+                  var swiper = new Swiper(".mySwiper", {
+                    effect: "coverflow",
+                    centeredSlides: true,
+                    slidesPerView: 1,
+                    loop: true,
+                    autoplay: {
+                      delay: 1000,
+                      disableOnInteraction: false,
+                    },
+                    coverflowEffect: {
+                      rotate: 45,
+                      stretch: 0,
+                      depth: 240,
+                      modifier: 1,
+                      slideShadows: false,
+                    },
+                    slideToClickedSlide: true,
+                    pagination: {
+                      el: ".swiper-pagination",
+                      clickable: true,
+                    },
+                  });
+                } else {
+                  var swiper = new Swiper(".mySwiper", {
+                    effect: "coverflow",
+                    centeredSlides: true,
+                    slidesPerView: 2,
+                    loop: true,
+                    autoplay: {
+                      delay: 1000,
+                      disableOnInteraction: false,
+                    },
+                    coverflowEffect: {
+                      rotate: 45,
+                      stretch: 0,
+                      depth: 240,
+                      modifier: 1,
+                      slideShadows: false,
+                    },
+                    slideToClickedSlide: true,
+                    pagination: {
+                      el: ".swiper-pagination",
+                      clickable: true,
+                    },
+                  });
+                }
+              } catch (err) {
+                console.log(err);
+              }
+            }
+          </script> -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              centeredSlides: false,
+              slidesPerGroupSkip: 1,
+              grabCursor: true,
+              // autoplay: true,
+              loop: true,
+              keyboard: {
+                enabled: true,
+              },
+              breakpoints: {
+                769: {
+                  slidesPerView: 3,
+                  slidesPerGroup: 3,
+                  spaceBetween: 30,
+                },
+              },
+              scrollbar: {
+                el: ".swiper-scrollbar",
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+            });
+          </script>
+          <script src="/js/Jquery.js" type="text/javascript"></script>
+          <script src="/CustomJS/main.js" type="text/javascript"></script>
+          <script src="/js/Bootstrap.js" type="text/javascript"></script>
+          <script src="/CustomJS/Landing.js" type="text/javascript"></script>
+          <script src="/CustomJS/Auth.js" type="text/javascript"></script>
+          <script src="/CustomJS/Custom.js" type="text/javascript"></script>
+</body>
+
+</html>

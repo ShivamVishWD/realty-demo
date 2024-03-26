@@ -1,0 +1,35 @@
+.cp-features
+{   
+    display: none;
+    &.show{
+        display: block;
+    }
+    padding-top: 2rem;
+    .feature-head
+    {
+        font-size:3rem;
+        margin-bottom: 2rem;
+        font-family: $font-barlow;
+        font-weight:bold;
+
+    }
+    p{
+        margin-bottom: 2rem; 
+    }
+    .card
+    {
+        margin-bottom:2rem;
+        box-shadow: 0px 0px 5px 0px;
+        border-radius:10px;
+        .card-title
+        {
+            font-family: $font-Roboto;
+            font-weight:bold;
+        }
+        .card-link
+        {
+            color: #000;
+            font-weight:bold;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Homes</title>
+    <link rel="stylesheet" href="/css/Bootstrap.css">
+    <link rel="stylesheet" href="/scss/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/public/fonts/Avenir-Light.ttf">
+    <!-- <script id="BotPenguin-messenger-widget" src="https://cdn.botpenguin.com/botpenguin.js" defer>62c2d192dff07b5feed2a5b3,62c2d0cf99f7d360874c9d38</script> -->
+</head>
+
+<body>
+    <%- include('Includes/Preloader.ejs') %>
+        <%- include('Includes/Header.ejs') %>
+            <%- include('Includes/FixedSection.ejs') %>
+                <div class="container-fluid cp-login">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-md-6 mt-4">
+                                <div class="login-form">
+                                    <h2>Login Here</h2>
+                                    <form class="userLoginForm">
+                                        <div class="form-group">
+                                            <label for="userType">Login As <span style="color: red;">*</span></label>
+                                            <select name="userType" id="userType" class="form-control" required>
+                                                <option value="">--Select--</option>
+                                                <option value="Buyer">Buyer</option>
+                                                <option value="Resident">Resident</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email address <span style="color: red;">*</span></label>
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                aria-describedby="emailHelp" required>
+                                            <small id="emailHelp" class="form-text text-default">We'll never share your
+                                                email with
+                                                anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="profile_psw">Password <span style="color: red;">*</span></label>
+                                            <input type="password" class="form-control" name="password" id="profile_psw"
+                                                required>
+                                            <i id="passwordToggle" class="fa fa-eye"></i>
+                                        </div>
+
+                                        <button type="submit" class="btn">Submit</button> &nbsp; &nbsp;
+                                        <b><label for="message" class="authMessage"></label></b>
+                                        <!-- <button type="button" class="btn forgot">Forgot Password</button> -->
+
+                                    </form>
+                                    <!-- <a href="/signup" class="account">Create an Account</a> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 p-lg-2">
+                                <!-- <img src="/images/undraw_access_account_re_8spm.svg"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <%- include('Includes/Footer.ejs') %>
+                    <%- include('Includes/UserAuth.ejs') %>
+
+                        <script src="/js/Jquery.js" type="text/javascript"></script>
+                        <script src="/CustomJS/LoginAuth.js" type="text/javascript"></script>
+                        <script src="/CustomJS/Custom.js" type="text/javascript"></script>
+                        <script src="/CustomJS/Auth.js" type="text/javascript"></script>
+                        <script src="/js/Bootstrap.js" type="text/javascript"></script>
+</body>
+
+</html>

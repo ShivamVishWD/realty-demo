@@ -1,0 +1,14 @@
+.cp-modalPrepaid{
+    .modal-body{
+        .meter-balance-section{
+            background-color: #eee;
+            padding: 1rem;
+        }
+    }
+    .modal-footer{
+        .add-money-btn{
+            background-color: $second-color;
+            color: #fff;
+        }
+    }
+}

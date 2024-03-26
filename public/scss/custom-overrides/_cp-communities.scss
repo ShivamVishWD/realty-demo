@@ -1,0 +1,39 @@
+.cp-communities{
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    background-color: #eee;
+
+    .community-box{
+        position: relative;
+        height: 20rem;
+        width: 100%;
+        margin-top: 2rem;
+        object-fit: cover;
+        &.box-1{
+            background: url('../../images/comm-img-1.jpg');
+            background-size: cover;
+        }
+        &.box-2{
+            background: url('../../images/comm-img-2.jpg');
+            background-size: cover;
+        }
+        .box-content{
+            position: absolute;
+            top: 60%;
+            left: 5%;
+            color: #fff;
+            width: 200px;
+            z-index: 1;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba($color: #000000, $alpha: 0.5);
+        }
+    }
+}

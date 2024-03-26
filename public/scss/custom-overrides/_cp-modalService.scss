@@ -1,0 +1,22 @@
+.cp-modalService{
+    form{
+        label{
+            font-weight: 500;
+        }
+        input, textarea, select{
+            border-radius: 0;
+            border: none;
+            border-bottom: 2px solid rgba($color: #666, $alpha: 0.3);
+            &:focus{
+                border-bottom: 2px solid $second-color;
+                box-shadow: none;
+                outline: none;
+            }
+        }
+        .btn{
+            background-color: $second-color;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+}

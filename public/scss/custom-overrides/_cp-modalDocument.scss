@@ -1,0 +1,11 @@
+.cp-modalDocument{
+    .modal-footer{
+        .add-file{
+            border: 2px solid $second-color;
+        }
+        .add-folder{
+            background-color: $second-color;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.cp-block{
+    padding: 3rem;
+    font-family: $font-barlow;
+    h3{
+        text-align: center;
+        font-family: $font-barlow;
+        font-size: 3rem;
+        font-weight: 600;
+        @media only screen and (max-width:$media-sm) {
+            font-size: 1.5rem;
+        }
+    }
+    .card{
+        box-shadow: 0 0 5px 2px lightgrey;
+        padding: 2rem ;
+        margin-top:10px;
+        @media only screen and (max-width:$media-sm) {
+            margin-top: 1rem;
+            padding: 1.5rem;
+        }
+        .card-body{
+            padding: 1rem;
+            text-align: center;
+            height: 200px;
+            img{
+                height: 70px;
+                aspect-ratio: 1/1;
+            }
+            h5{
+                margin-top: 1rem;
+            }
+        }
+    }
+   
+    &-section{
+        padding: 1rem;
+        text-align: center;
+        div{
+            padding-top: 1rem;
+            img{
+                width: 40px;
+                aspect-ratio: 1/1;
+            }
+        }
+        h4{
+            color: #fff;
+            margin-top: 3.5rem;
+            font-weight: 600;
+            display: inline-block;
+            width: 300px;
+            padding: 1rem;
+            background-color: $second-color;
+            @media only screen and (max-width:$media-sm) {
+                font-size: 1.2rem;
+                margin-bottom: 0rem;
+                width: 250px;
+            }
+        }
+        .card-section{
+            height:24rem;
+            .swiper-card{
+                padding: 3rem;
+                height:12rem;
+                border-radius: 5px;
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
+        }
+    }
+}

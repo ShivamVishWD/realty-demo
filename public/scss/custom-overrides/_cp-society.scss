@@ -1,0 +1,51 @@
+.cp-society
+{
+    .society-head
+    {
+        font-size:3rem;
+        margin-bottom: 2rem;
+        font-family: $font-barlow;
+        font-weight:bold;
+        margin-top: 2rem;
+    }
+    p{
+        margin-bottom: 2rem; 
+    }
+    .card
+    {
+        .card-header
+        {
+            font-family: $font-Roboto;
+            font-weight:bold;
+            font-weight: bold;
+        }
+        .notice
+        {
+            background-color:#ffd180;
+        }
+    }
+    .society-desk
+    {
+        width: 250px;
+        text-align: center;
+        padding: 2rem;
+        border-radius:5px;
+        box-shadow: 0px 0px 5px 0px;
+        margin-bottom: 5rem;
+        @media only screen and (max-width:$media-sm) {
+            width: 100%;
+            padding: 1rem;
+            margin-bottom: 2rem;
+          }
+        img
+        {
+            width: 80px;
+        }
+        p{
+            margin-bottom: 1rem; 
+            margin-top:1rem;
+            font-weight: bold;
+            
+        }
+    }
+}

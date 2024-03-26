@@ -1,0 +1,32 @@
+.cp-quickActions{
+    .modal-dialog .modal-content{
+        .modal-body{
+            .container{
+                h6{
+                    @media only screen and (max-width:$media-sm) {
+                        margin: 0px;
+                    }
+                }
+                .row {
+                    .col-lg-3{
+                        .card{
+                            cursor: pointer;
+                            img{
+                                @media only screen and (max-width:$media-sm) {
+                                    width: 100%;
+                                    aspect-ratio:1/1;
+                                }
+                            }
+                            label {
+                                @media only screen and (max-width:$media-sm) {
+                                    color: #000;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

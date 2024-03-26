@@ -1,0 +1,23 @@
+.cp-locationStrip{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: $second-color;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 0%;
+    padding: 5px;
+    padding-bottom: 0%;
+    display: none;
+    &.show{
+        display: block;
+    }
+    .row .col-lg-12{
+        display: flex;
+        justify-content: space-between;
+        p a{
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+.cp-footer {
+    background: rgba($color: $primary-color, $alpha: 1);
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: #fafafa;
+	.footer-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.footer-brand {
+			width: 30%;
+			min-width: 300px;
+			h3{
+				// font-style: italic;
+				letter-spacing: 2px;
+				font-size: 3rem;
+			}
+			img{
+				height: 90px;
+				width: 180px;
+			}
+			h2{
+                font-family: $font-Roboto;
+            }
+			p {
+				padding-top: 1rem;
+				text-align: left;
+				font-size: 0.8rem;
+                font-family: $font-Roboto;
+			}
+		}
+		.footer-link {
+			padding-top: 1rem;
+			h3 {
+				font-size: 1.2rem;
+                text-transform: uppercase;
+                font-family: $font-Poppins;
+			}
+			ul {
+				padding: 0;
+			}
+			li {
+				list-style: none;
+				margin: 15px 0px;
+                font-size: 0.8rem;
+                font-family: $font-Roboto;
+                a{
+                    color: #fafafa;
+                    text-decoration: none;
+                    font-weight: 400;
+                }
+			}
+		}
+        .social-links
+        {
+            padding-top: 1rem;
+            h3 {
+				font-size: 1.2rem;
+                text-transform: uppercase;
+                font-family: $font-Poppins;
+			}
+            ul {
+				padding: 0;
+			}
+			li {
+				list-style: none;
+                font-size: 2rem;
+                display:inline-block;
+                margin: 0px 10px;
+                
+			}
+            .fa-facebook-square
+            {
+                // color: #39559F;
+				color: #fafafa;
+            }
+            .fa-twitter-square
+            {
+                // color: #19A9E3;
+				color: #fafafa;
+            }
+            .fa-linkedin-square
+            {
+                // color: #007AB6;
+				color: #fafafa;
+            }
+        }
+	}
+}
+.copyright {
+	text-align: center;
+	font-family: $font-barlow;
+	font-weight: bold;
+	font-size: 1rem;
+	background: rgba($color: $second-color, $alpha: 1) ;
+	color: #fafafa;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,35 @@
+.cp-swiper-section{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba($color: #000, $alpha: 0.6);
+    }
+    &.resident{
+        background-image: url('../../images/dubai-marina.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    &.Committee{
+        background-image: url('../../images/group-people-working-out-business-plan-office.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .card-section{
+        .mySwiper {
+            .swiper-wrapper{
+                .swiper-slide .swiper-card{
+                    background: #ddd;
+                    color: #000;
+                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                }
+            }
+        }
+    }
+}

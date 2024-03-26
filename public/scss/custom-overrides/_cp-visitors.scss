@@ -1,0 +1,30 @@
+.cp-visitors
+{
+    display: none;
+    &.show{
+        display: block;
+    }
+    background: #f7f7f7 ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .visitor-head
+    {
+        font-size:3rem;
+        margin-bottom: 2rem;
+        font-family: $font-barlow;
+        font-weight:bold;
+        margin-top: 2rem;
+    }
+    p{
+        margin-bottom: 2rem; 
+    }
+    .card
+    {
+        margin-bottom:2rem;
+        border: none;
+        .card-img-top
+        {
+            height:220px;
+        }
+    }
+}

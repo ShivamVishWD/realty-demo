@@ -1,0 +1,86 @@
+<div class="float-div">
+    <div class="section enquiryModalBtn">
+        <a href="#" onclick="event.preventDefault();">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="section">
+        <a href="tel:+ 971 4 278 0888">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </a>
+    </div>
+    <!-- <div class="section">
+        <a href="#" onclick="event.preventDefault();">
+            <i class="fa fa-comments-o" aria-hidden="true"></i>
+        </a>
+    </div> -->
+</div>
+
+<!-- Enquiry Modal -->
+<div class="modal fade cp-modalForm" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 enquiryBg">
+                            
+                        </div>
+                        <div class="col-lg-6">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <form class="enquiryForm">
+                                <legend>Register Your Interest</legend><hr>
+                                <div class="form-group">
+                                    <label for="fullName">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName" name="fullName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactNo">Contact Number</label>
+                                    <input type="number" class="form-control" id="contactNo" name="contactNo" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailId">Email</label>
+                                    <input type="text" class="form-control" id="emailId" name="emailId" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="selectProject">Select Project</label>
+                                    <select class="form-control" id="selectProject" name="selectProject" required>
+                                        <option value="">--Select--</option>
+                                        <option value="Ellington Beach House">Ellington Beach House</option>
+                                        <option value="Ellington House">Ellington House</option>
+                                        <option value="Berkeley Place">Berkeley Place</option>
+                                        <option value="Kensington Waters">Kensington Waters</option>
+                                        <option value="Harrington House">Harrington House</option>
+                                        <option value="The Sloane">The Sloane</option>
+                                        <option value="Belgravia Square">Belgravia Square</option>
+                                        <option value="Wilton Park Residences I">Wilton Park Residences I</option>
+                                        <option value="Wilton Park Residences II">Wilton Park Residences II</option>
+                                        <option value="DT1">DT1</option>
+                                        <option value="Wilton Terraces I">Wilton Terraces I</option>
+                                        <option value="Wilton Terraces II">Wilton Terraces II</option>
+                                        <option value="Emirates Hills">Emirates Hills</option>
+                                        <option value="Villa Collection at Palm Island">Villa Collection at Palm Island</option>
+                                        <option value="Belgravia Heights I">Belgravia Heights I</option>
+                                        <option value="Somerset Mews">Somerset Mews</option>
+                                        <option value="Eaton Place">Eaton Place</option>
+                                        <option value="Belgravia">Belgravia</option>
+                                        <option value="Belgravia II">Belgravia II</option>
+                                        <option value="Belgravia III">Belgravia III</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="agreement" required>
+                                    <label for="agreement" class="text-sm-left">I agree to share my data with Ellington Properties.</label>
+                                </div>
+                                <button type="submit" class="btn">Submit</button> &nbsp; &nbsp;
+                                <b><label class="enquiryMessage"></label></b>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+.cp-contact{
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    font-family: $font-barlow;
+    background: url('../../images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba($color: #000000, $alpha: 0.2);
+    }
+    @media only screen and (max-width:$media-sm) {
+        margin-top: 7rem;
+        padding-top: 2rem;
+    }
+    .container .row .col-lg-6 .contact-form{
+        backdrop-filter: blur(5px);
+        background: rgba($color: #000000, $alpha: 0.6);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        @media only screen and (max-width:$media-sm) {
+            padding: 1rem;
+            padding-top: 2rem;
+        }
+        color: #fff;
+        h2{
+            font-weight: bold;
+            font-size: 2.6rem;
+            @media only screen and (max-width:$media-sm) {
+                font-size: 1.8rem;
+            }
+        }
+        .btn{
+            background-color: $second-color;
+            color: #fff;
+            font-weight: 600;
+        }
+        form .form-group input{
+            &:focus{
+                outline: 0 none;
+                box-shadow: none;
+            }
+        }
+    }
+    img{
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+}

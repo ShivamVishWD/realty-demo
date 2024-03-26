@@ -1,0 +1,103 @@
+.property_desc{
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0 30px 24px 30px;
+    @media only screen and (max-width:$media-sm) {
+        padding: 0.8rem;
+    }
+    h6{
+        padding-top: 20px;
+    }
+}
+.detail_head{
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 0;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+
+.property_Description{
+    p{
+        padding: 20px;
+        @media only screen and (max-width:$media-sm) {
+            padding: 0rem;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+        }
+    }
+    .dis_head{
+        padding: 10px;
+        padding-top: 50px;
+        padding-left: 0;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        margin-left: 20px;
+        @media only screen and (max-width:$media-sm) {
+            padding: 0.5rem;
+            margin: 0px;
+        }
+    }
+}
+.property_D{
+    .property_spec{
+        padding-top: 10px;
+
+        span{
+            font-weight: 500;
+        }
+    }
+}
+.amenities_parent{
+    padding: 0;
+    .amenities{
+        background-color: #f4f4f4;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-top: 60px;
+        padding: 30px;
+        h5{
+            text-align: center;
+            padding: 20px;
+            margin-top: 0 !important;
+            padding-bottom: 30px;
+        }
+        .amenities_data{
+            justify-content: center;
+            .amenities_icon{
+                text-align: center;
+                p{
+                    font-size: 12px;
+                    padding: 10px;
+                }
+                img{
+                    height: 40px;
+                }
+            }
+        }
+       
+    }
+}
+.cp-profile-plan{
+    height: 100%;
+}
+.slider_P{
+    display: block;
+}
+.cp-float.show{
+    z-index: 99999999;
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    #slides01{
+        height: 250px !important;
+    }
+    .swiper{
+        height: auto !important;
+    }
+}
+

@@ -1,0 +1,85 @@
+.cp-community{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    font-family: $font-barlow;
+    background-image: url('../../images/pexels-aleksandar-pasaric-618079.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba($color: #000000, $alpha: 0.6);
+        z-index: 0;
+    }
+    @media only screen and (max-width:$media-sm) {
+        margin-top: 6rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .container{
+        backdrop-filter: blur(5px);
+        background: rgba($color: #fff, $alpha: 0.6);
+        padding: 3rem;
+        border-radius: 5px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        @media only screen and (max-width:$media-sm) {
+           padding: 1rem;
+        }
+        h3{
+            font-weight: 600;
+            margin: 10px;
+            @media only screen and (max-width:$media-sm) {
+                font-size: 1.3rem;
+            }
+        }
+        .row .col-lg-3 .card{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            height:200px;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px 2px rgba($color: #666, $alpha: 0.3);
+            @media only screen and (max-width:$media-sm) {
+                box-shadow: 0px 2px 5px 2px rgba($color: #111, $alpha: 0.3);
+                height: 180px;
+            }
+            .card-body{
+                img{
+                    width: 50px;
+                    aspect-ratio: 1/1;
+                    margin: 10px;
+                    @media only screen and (max-width:$media-sm) {
+                        width: 30px;
+                        aspect-ratio: 1/1;
+                        text-align: center;
+                    }
+                }
+                .card-title{
+                    @media only screen and (max-width:$media-sm) {
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                    }
+                }
+                .card-subtitle{
+                    @media only screen and (max-width:$media-sm) {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        #community{
+            .card{
+                height: 400px;
+                @media only screen and (max-width:$media-sm) {
+                    height: 350px;
+                }
+            }
+        }
+    }
+}

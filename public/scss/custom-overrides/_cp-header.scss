@@ -1,0 +1,149 @@
+.navbar {
+  background: transparent;
+  z-index: 99;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 0px 5px 0px grey;
+  background: rgba($color: #fff, $alpha: 1);
+  @media only screen and (max-width:$media-sm){
+    padding: 0rem 1.3rem 0rem 0.9rem;
+  }
+  &.scroll{
+    background-color: #fff;
+    box-shadow: 0px 5px 5px 0px rgba($color: #333, $alpha: 0.5);
+    // animation: slidein 0.3s linear;
+    .navbar-nav .nav-item .nav-link{ 
+      color: #000;
+      &:hover{ 
+        // background: linear-gradient(to right, #D92828,#F47935,#FACE35);
+        color: $second-color;
+        // background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        // border-bottom: 2px solid $second-color; 
+      }
+    }
+    .navbar-nav .nav-item .logout-btn{
+      &:hover{
+        border-bottom: none;
+      }
+    }
+    .navbar-brand { color: #000 };
+  }
+  @keyframes slidein {
+    0%{ transform: translateY(-100%); opacity:0.5; }
+    100%{ transform: translateY(0%); opacity: 1;}
+  }
+  &.shift{
+    position: fixed;
+    top: 2.5rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    // font-style: italic;
+    font-family: $font-barlow;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #000;
+    img{
+      width: 140px;
+      height: 60px;
+      @media only screen and (max-width:$media-sm){
+        height: 50px;
+        width: 100px;
+      }
+    }
+    @media only screen and (max-width:$media-sm){
+      .navbar-title{ display: none; }
+    }
+  }
+  .navbar-toggler{
+    // background-color: #08548d;
+    background: $second-color;
+  }
+  .navbar-nav {
+    .nav-item {
+        margin:0 1rem;
+        position: relative;
+        @media only screen and (max-width:$media-sm){
+          position: none;
+        }
+        &.login-nav{
+          position: absolute;
+          right: 8rem;
+          @media only screen and (max-width:$media-sm){
+            position: relative;
+            right: 0rem;
+          }
+        }
+        &.logout-nav{
+          position: absolute;
+          right: 5rem;
+          @media only screen and (max-width:$media-sm){
+            position: relative;
+            right: 0rem;
+          }
+        }
+        &#community-nav{
+          display: none;
+        }
+      .nav-link {
+        position: relative;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing:3px;
+        font-family: $font-barlow;
+        font-weight:bold;
+        font-size: 0.95rem;
+        border-bottom: 2px solid transparent;
+        z-index: 1;
+        &:hover{
+          color: $second-color;
+          font-weight: 500;
+          &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            animation: slideRight 0.5s ease;
+            background: $second-color;
+          }
+          @keyframes slideRight {
+            0%{ width: 0%; }
+            100%{ width: 100%;}
+          }
+          &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 2px;
+            animation: slideLeft 0.5s ease;
+            background: $second-color;
+          }
+          @keyframes slideLeft {
+            0%{ width: 0%; }
+            100%{ width: 100%;}
+          }
+          // background: linear-gradient(to right, #D92828,#F47935,#FACE35);
+          // background-clip: text;
+          // -webkit-text-fill-color: transparent;
+          // border-bottom: 2px solid $second-color;
+        }
+      }
+      .logout-btn{
+        display: none;
+        cursor: pointer;
+        &.show-btn{
+          display: block;
+        }
+        &:hover{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    const Base_url = "<%= url %>";
+    let userDetailsFromSessions = '<%= userDetail %>';
+    let userDetails = '';
+    if (!userDetailsFromSessions) {
+        userDetails = 'No data Found'
+    }
+    else {
+        userDetails = userDetailsFromSessions;
+        //console.log(userDetails);
+    }
+  </script>

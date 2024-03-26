@@ -1,0 +1,43 @@
+.cp-modalCard{
+    .modal-dialog .modal-content{
+        .modal-body .container{
+            h5{
+                a{
+                    color: $second-color;
+                }
+            }
+            .row .col-lg-12 {
+                h6{
+                    a{
+                        color: $second-color;
+                    }
+                } 
+                label{
+                    margin-top: 20px;
+                    color: #333;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                }
+                ul{
+                    padding-top: 20px;
+                    margin-left: 0px;
+                    list-style-type: none;
+                    li{
+                        a{
+                            color: #333;
+                            padding: 10px;
+                            text-transform: uppercase;
+                            display: block;
+                            text-decoration: none;
+                            border-bottom: 1px solid rgba($color: #777, $alpha: 0.3);
+                            transition: 0.2s all;
+                            &:hover{
+                                color: $second-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
