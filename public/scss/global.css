@@ -1993,6 +1993,12 @@
 .about-news .news-img {
   display: flex;
 }
+.about-news .news-img img {
+  height: 300px;
+  aspect-ratio: 1.4/1;
+  border-radius: 10px;
+  margin-right: 10px;
+}
 
 .float-div {
   position: fixed;
