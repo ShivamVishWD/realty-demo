@@ -35,7 +35,7 @@ router.get('/community', (req, res) => {
     const baseUrl = '/';
     const UserDetails = req.session.userID ? req.session.userID : '616052e7f52e5c8095f19819';
     if (UserDetails === req.session.userID)
-        res.render('community', { url: baseUrl, userDetail: UserDetails });
+        res.render('Community', { url: baseUrl, userDetail: UserDetails });
     else
         res.render('login', { url: baseUrl, userDetail: UserDetails });
 });
