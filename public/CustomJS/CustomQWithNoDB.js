@@ -48,7 +48,7 @@ function getCommunity() {
       "</p>" +
       '<p class="card-text"><b>Service Cost: </b>' +
       response.serviceCost +
-      " Rs.</p>" +
+      " AED.</p>" +
       "</div>" +
       "</div>" +
       "</div>";

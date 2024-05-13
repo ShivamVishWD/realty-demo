@@ -21,7 +21,7 @@
   color: #000;
 }
 .navbar.scroll .navbar-nav .nav-item .nav-link:hover {
-  color: #D92828;
+  color: #DC3545;
 }
 .navbar.scroll .navbar-nav .nav-item .logout-btn:hover {
   border-bottom: none;
@@ -51,8 +51,8 @@
   color: #000;
 }
 .navbar .navbar-brand img {
-  width: 140px;
   height: 60px;
+  aspect-ratio: 1/1;
 }
 @media only screen and (max-width: 768px) {
   .navbar .navbar-brand img {
@@ -66,7 +66,7 @@
   }
 }
 .navbar .navbar-toggler {
-  background: #D92828;
+  background: #DC3545;
 }
 .navbar .navbar-nav .nav-item {
   margin: 0 1rem;
@@ -112,7 +112,7 @@
   z-index: 1;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #D92828;
+  color: #DC3545;
   font-weight: 500;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover::before {
@@ -123,7 +123,7 @@
   width: 100%;
   height: 2px;
   animation: slideRight 0.5s ease;
-  background: #D92828;
+  background: #DC3545;
 }
 @keyframes slideRight {
   0% {
@@ -141,7 +141,7 @@
   width: 100%;
   height: 2px;
   animation: slideLeft 0.5s ease;
-  background: #D92828;
+  background: #DC3545;
 }
 @keyframes slideLeft {
   0% {
@@ -274,12 +274,12 @@
   }
 }
 .cp-banner .banner-content .act-btn .sec {
-  background-color: #D92828;
+  background-color: #DC3545;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   padding: 0.7rem 2rem;
   font-size: 1.5rem;
-  border: 1px solid #D92828;
+  border: 1px solid #DC3545;
   color: #fff;
   margin-left: 1rem;
   box-shadow: none;
@@ -532,7 +532,7 @@
   font-weight: bold;
 }
 .cp-gateway .btn {
-  background: #D92828;
+  background: #DC3545;
   color: #fff;
   box-shadow: none;
   border-radius: 0px;
@@ -585,14 +585,14 @@
   border-radius: 0;
 }
 .cp-login .login-form .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   box-shadow: none;
   border-radius: 0px;
   padding: 10px 15px;
 }
 .cp-login .login-form .forgot {
-  background-color: #D92828;
+  background-color: #DC3545;
 }
 .cp-login .login-form .form-control {
   box-shadow: none;
@@ -607,7 +607,7 @@
   margin-bottom: 2rem;
 }
 .cp-login .login-form .accountCreate {
-  background-color: #D92828;
+  background-color: #DC3545;
 }
 .cp-login img {
   width: 100%;
@@ -713,7 +713,7 @@
   position: fixed;
   bottom: 90px;
   right: 25px;
-  background-color: #D92828;
+  background-color: #DC3545;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -820,7 +820,7 @@
   }
 }
 .cp-contact .container .row .col-lg-6 .contact-form .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   font-weight: 600;
 }
@@ -855,10 +855,10 @@
 }
 
 .cp-modalCard .modal-dialog .modal-content .modal-body .container h5 a {
-  color: #D92828;
+  color: #DC3545;
 }
 .cp-modalCard .modal-dialog .modal-content .modal-body .container .row .col-lg-12 h6 a {
-  color: #D92828;
+  color: #DC3545;
 }
 .cp-modalCard .modal-dialog .modal-content .modal-body .container .row .col-lg-12 label {
   margin-top: 20px;
@@ -881,14 +881,14 @@
   transition: 0.2s all;
 }
 .cp-modalCard .modal-dialog .modal-content .modal-body .container .row .col-lg-12 ul li a:hover {
-  color: #D92828;
+  color: #DC3545;
 }
 
 .cp-modalForm .modal-body form {
   display: block;
 }
 .cp-modalForm .modal-body form a {
-  color: #D92828;
+  color: #DC3545;
 }
 .cp-modalForm .modal-body form input, .cp-modalForm .modal-body form select, .cp-modalForm .modal-body form textarea {
   border: none;
@@ -898,10 +898,10 @@
   border-bottom: 3px solid #ccc;
 }
 .cp-modalForm .modal-body form input:focus, .cp-modalForm .modal-body form select:focus, .cp-modalForm .modal-body form textarea:focus {
-  border-bottom: 3px solid #D92828;
+  border-bottom: 3px solid #DC3545;
 }
 .cp-modalForm .modal-body form .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   font-weight: 600;
 }
@@ -914,7 +914,7 @@
   position: fixed;
   top: 0;
   z-index: 99;
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -943,12 +943,12 @@
   border-bottom: 2px solid rgba(102, 102, 102, 0.3);
 }
 .cp-modalService form input:focus, .cp-modalService form textarea:focus, .cp-modalService form select:focus {
-  border-bottom: 2px solid #D92828;
+  border-bottom: 2px solid #DC3545;
   box-shadow: none;
   outline: none;
 }
 .cp-modalService form .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   font-weight: 600;
 }
@@ -962,7 +962,7 @@
   border-bottom: 2px solid rgba(102, 102, 102, 0.3);
 }
 .cp-modalReqService form input:focus, .cp-modalReqService form textarea:focus, .cp-modalReqService form select:focus {
-  border-bottom: 2px solid #D92828;
+  border-bottom: 2px solid #DC3545;
   box-shadow: none;
   outline: none;
 }
@@ -975,7 +975,7 @@
   outline: none;
 }
 .cp-modalReqService form .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   font-weight: 600;
 }
@@ -1041,15 +1041,15 @@
   transition: all 0.3s;
 }
 .cp-modalResidents .modal-body .button-section button:hover {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
 }
 
 .cp-modalDocument .modal-footer .add-file {
-  border: 2px solid #D92828;
+  border: 2px solid #DC3545;
 }
 .cp-modalDocument .modal-footer .add-folder {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
 }
 
@@ -1058,7 +1058,7 @@
   padding: 1rem;
 }
 .cp-modalPrepaid .modal-footer .add-money-btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
 }
 
@@ -1144,7 +1144,7 @@
 .cp-callback-form input:focus {
   box-shadow: none;
   outline: none;
-  border-bottom: 2px solid #D92828;
+  border-bottom: 2px solid #DC3545;
   background: transparent;
 }
 @media only screen and (max-width: 768px) {
@@ -1159,7 +1159,7 @@
   color: #fff;
 }
 .cp-callback-form .btn {
-  background: #D92828;
+  background: #DC3545;
   color: #fff;
   font-weight: 600;
 }
@@ -1220,7 +1220,7 @@
   display: inline-block;
   width: 300px;
   padding: 1rem;
-  background-color: #D92828;
+  background-color: #DC3545;
 }
 @media only screen and (max-width: 768px) {
   .cp-block-section h4 {
@@ -1287,7 +1287,7 @@
   border-bottom: none;
 }
 .cp-help .complaintForm .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   box-shadow: none;
   outline: none;
@@ -1376,11 +1376,11 @@
 }
 .cp-profile-action nav ul li a:hover {
   color: #fff;
-  background-color: #D92828;
+  background-color: #DC3545;
 }
 .cp-profile-action nav ul li a.active {
   color: #fff;
-  background-color: #D92828;
+  background-color: #DC3545;
 }
 @media only screen and (max-width: 768px) {
   .cp-profile-action nav ul li a {
@@ -1436,7 +1436,7 @@
   font-size: 1.1rem;
   letter-spacing: 1px;
   display: block;
-  background: #D92828;
+  background: #DC3545;
   color: #fff;
 }
 .cp-profile-plan .profile-form {
@@ -1493,7 +1493,7 @@
   outline: none;
 }
 .cp-profile-plan .btn {
-  background-color: #D92828;
+  background-color: #DC3545;
   color: #fff;
   border-bottom: none;
   box-shadow: none;
@@ -1533,7 +1533,7 @@
 }
 
 .cp-footer {
-  background: #d92828;
+  background: #dc3545;
   padding-top: 20px;
   padding-bottom: 40px;
   color: #fafafa;
@@ -1552,8 +1552,8 @@
   font-size: 3rem;
 }
 .cp-footer .footer-section .footer-brand img {
-  height: 90px;
-  width: 180px;
+  height: 80px;
+  aspect-ratio: 2.5/1;
 }
 .cp-footer .footer-section .footer-brand h2 {
   font-family: "Ubuntu", sans-serif;
@@ -1618,7 +1618,7 @@
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 1rem;
-  background: #d92828;
+  background: #dc3545;
   color: #fafafa;
   padding: 10px;
   display: flex;
@@ -1636,7 +1636,7 @@
   border: 2px solid lightgrey;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  background: rgba(217, 40, 40, 0.8);
+  background: rgba(220, 53, 69, 0.8);
 }
 .cp-swiper .mySwiper .swiper-wrapper .swiper-slide .slider-box {
   padding: 1rem;
@@ -1671,7 +1671,7 @@
   font-weight: bold;
 }
 .cp-visit-form .visit-form .btn {
-  background: #D92828;
+  background: #DC3545;
   color: #fff;
   font-weight: 500;
   border: 1px solid #fff;
@@ -1692,11 +1692,11 @@
      object-fit: cover;
 }
 .cp-communities .community-box.box-1 {
-  background: url("../../images/comm-img-1.jpg");
+  background: url("../../images/banner1.webp");
   background-size: cover;
 }
 .cp-communities .community-box.box-2 {
-  background: url("../../images/comm-img-2.jpg");
+  background: url("../../images/banner2.webp");
   background-size: cover;
 }
 .cp-communities .community-box .box-content {
@@ -1846,7 +1846,7 @@
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #D92828;
+  border-top-color: #DC3545;
   animation: spin 2s linear infinite;
 }
 .cp-preloader .loader::before {
@@ -1858,7 +1858,7 @@
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #D92828;
+  border-top-color: #DC3545;
   animation: spin 3s linear infinite;
 }
 .cp-preloader .loader::after {
@@ -1870,7 +1870,7 @@
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #D92828;
+  border-top-color: #DC3545;
   animation: spin 1.5s linear infinite;
 }
 @keyframes spin {
@@ -2013,7 +2013,7 @@
   transition: 0.3s all;
 }
 .float-div .section:hover {
-  background-color: #D92828;
+  background-color: #DC3545;
 }
 .float-div .section:hover a > i {
   color: #ddd;
@@ -2034,7 +2034,7 @@
 }
 .float-div .section a i {
   font-size: 1.5rem;
-  color: #D92828;
+  color: #DC3545;
   transition: 0.3s all;
 }
 @media only screen and (max-width: 768px) {

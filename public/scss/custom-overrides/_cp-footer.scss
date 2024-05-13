@@ -16,8 +16,9 @@
 				font-size: 3rem;
 			}
 			img{
-				height: 90px;
-				width: 180px;
+				height: 80px;
+				// width: 180px;
+				aspect-ratio: 2.5/1;
 			}
 			h2{
                 font-family: $font-Roboto;
